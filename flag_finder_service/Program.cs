@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using static Tensorflow.Binding;
+using static Tensorflow.KerasApi;
+using Tensorflow;
+using Tensorflow.NumPy;
